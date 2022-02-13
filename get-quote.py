@@ -44,7 +44,7 @@ def insert():
   answer = input("What words of wisdom do you have?  ")
 
   f = open("quotes.txt", 'a')
-  f.write(answer)
+  f.write("\n" + answer)
   f.close()
 
   print("All done!\n")
